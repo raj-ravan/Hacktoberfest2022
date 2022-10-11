@@ -33,7 +33,7 @@ Hacktoberfest 2022
 - Clone on your local machine
 
 ```terminal
-git clone https://github.com/MahabhoiAryan/HacktoberFest2022.git
+git clone https://github.com//raj-ravan/Hacktoberfest2022.git
 ```
 - Navigate to project directory.
 ```terminal
