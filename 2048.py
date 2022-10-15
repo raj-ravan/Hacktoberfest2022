@@ -274,7 +274,7 @@ class Game:
         self.grid.reverse()
         self.grid.left_compress()
         self.grid.left_merge()
-        self.grid .moved = self.grid.compressed or self.grid.merged
+        self.grid.moved = self.grid.compressed or self.grid.merged
         self.grid.left_compress()
         self.grid.reverse()
         self.grid.transpose()
