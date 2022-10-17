@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form id="myForm">
+        <button id="btn" type="button" value="Anand Prabhakar">My Button</button>
+    </form>
+
+    <head>
+        <style>
+            * {
+                text-align: center;
+                margin: 0px;
+            }
+            
+            html {
+                background: yellow;
+            }
+            
+            .calc {
+                background: red;
+                padding: 20px;
+                color: yellow;
+            }
+            
+            input {
+                background-color: blue;
+                color: yellow;
+            }
+        </style>
+        <script>
+            var str2 = document.getElementById("btn").value;
+            document.write("<br>My Name is: " + str2);
+
+            function sumthem() {
+                var x, y, sum;
+                x = Number(document.getElementById('a').value);
+                y = Number(document.getElementById('b').value);
+                sum = x + y;
+                document.getElementById("display").innerHTML = "The Sum of Numbers " + x + "   and " + y + " is " + sum;
+
+            }
+        </script>
+
+
+    </head>
+
+    <body>
+
+
+        <h1>Calculator</h1>
+        <br>
+
+        <div class="calc">
+            <span></span>Enter First Number : </span><input name="a" id="a"><br>
+            <span>Enter Second Number : </span><input name="b" id="b"><br><br>
+            <span id="display"></span>
+            <br><br>
+            <button onclick="sumthem()">Add both numbers</button>
+            <button onclick="subthem()">Add both numbers</button>
+            <button onclick="multhemthem()">Add both numbers</button>
+            <button onclick="divthem()">Add both numbers</button><br><br>
+        </div>
+
+        <br><br>
+
+
+    </body>
+
+</html>
